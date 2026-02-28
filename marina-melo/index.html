@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sua Marca Segura | Marina Melo</title>
+
+    <!-- Pré-conexão de fontes (Performance e Aesthetics) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="/.netlify/images?url=/hero_image.png&w=1200&q=80" as="image">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;500;600&family=DM+Serif+Display&display=swap"
+        rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://unpkg.com/@phosphor-icons/web" defer></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Hero Section (Sem animações iniciais de AOS, foco em estabilidade) -->
+    <header class="hero split-layout">
+        <div class="hero-content">
+            <div class="logo-area">
+                <span class="logo-text">Sua Marca Segura</span>
+            </div>
+
+            <div class="hero-text-wrapper">
+                <div class="label-premium">Serviço Premium de Registro</div>
+                <h1 class="hero-title">Alguém pode estar registrando o nome do seu negócio hoje.</h1>
+                <p class="hero-subtitle">Ter um CNPJ não impede que a concorrência roube sua marca. Garanta sua
+                    exclusividade no INPI, evite processos e proteja tudo o que você construiu até aqui.</p>
+                <a href="#contato" class="cta-button primary-cta">Quero proteger minha marca</a>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="visual-wrapper">
+                <!-- A imagem será substituída pela do gerador via /.netlify/images... -->
+                <img src="/.netlify/images?url=/hero_image.png&w=1200&q=80" width="1200" height="1200"
+                    alt="Proteção de Marca" loading="eager" fetchpriority="high" class="hero-image"
+                    id="dynamic-hero-img">
+                <div class="glass-badge">
+                    <div class="badge-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="gold-icon">
+                            <path d="M12 22S21 17 21 12V6L12 2L3 6V12C3 17 12 22 12 22Z" fill="currentColor" />
+                        </svg>
+                    </div>
+                    <div class="badge-text">
+                        <strong>Certificado INPI</strong>
+                        <span>Blindagem Jurídica</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Seção 1: O Risco Iminente -->
+    <section class="section-risk asymmetric-padding padding-lg bg-alt">
+        <div class="container grid-2-cols">
+            <div class="risk-visual">
+                <div class="risk-card lift-on-hover">
+                    <div class="risk-notification">
+                        <div class="notif-header">
+                            <span class="dot red"></span>
+                            <span class="notif-title">Notificação Extrajudicial</span>
+                        </div>
+                        <div class="notif-body">
+                            Uso Indevido de Marca. Prazo de 48h para interrupção de uso sob pena de multa.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="risk-content">
+                <h2 class="section-title">Você está construindo o sonho de outra pessoa ou o seu?</h2>
+                <div class="risk-text">
+                    <p>Legalmente, a sua marca só é sua se você tiver o certificado do INPI. Imagine investir anos em
+                        clientes, fachada, redes sociais e anúncios para, do dia para a noite, receber uma notificação
+                        extrajudicial com prazo de 48 horas exigindo que você pare de usar o próprio nome.</p>
+                    <p class="highlight-text">Agir hoje custa infinitamente menos do que recomeçar do zero.</p>
+                    <div style="margin-top: 2rem;">
+                        <a href="#contato" class="cta-button primary-cta">Quero proteger minha marca</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção 3: Consequências do Atraso -->
+    <section class="section-consequences bg-dark" id="consequencias">
+        <div class="container container-narrow">
+            <h2 class="section-title text-center text-white" data-aos="fade-up">O que acontece se você adiar o registro?
+            </h2>
+
+            <div class="bento-grid">
+                <!-- Item 1 -->
+                <div class="bento-box bento-wide grain-overlay hover-glow" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="bento-title">Roubo Legalizado</h3>
+                    <p class="bento-text">Concorrentes podem registrar seu nome primeiro e desviar seus clientes de
+                        forma totalmente dentro da lei.</p>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="bento-box bento-tall grain-overlay hover-glow" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="bento-title">Indenizações Pesadas</h3>
+                    <p class="bento-text">Riscos de multas altíssimas (até 5% do faturamento) por uso de marca já
+                        registrada por terceiros.</p>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="bento-box bento-wide grain-overlay hover-glow" data-aos="fade-up" data-aos-delay="300">
+                    <h3 class="bento-title">Rebranding Forçado</h3>
+                    <p class="bento-text">Ser obrigado a descartar sua logo, site, embalagens e uniformes às pressas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção 4: Como Funciona -->
+    <section class="section-how-it-works" id="como-funciona">
+        <div class="container how-grid">
+            <div class="how-sticky-col">
+                <h2 class="section-title text-primary" data-aos="fade-right">Sua marca blindada em 4 passos ágeis e sem
+                    burocracia.</h2>
+            </div>
+
+            <div class="how-steps-col">
+                <div class="scroll-line-container">
+                    <div class="scroll-line-bg"></div>
+                    <div class="scroll-line-progress" id="scroll-progress-line"></div>
+                </div>
+
+                <div class="steps-wrapper">
+                    <!-- Step 1 -->
+                    <div class="step-item step-target" data-aos="fade-up">
+                        <span class="step-number">01.</span>
+                        <h3 class="step-title">Diagnóstico de Viabilidade</h3>
+                        <p class="step-text">Uma análise profunda para saber se o seu nome está livre ou se já corre
+                            perigo.</p>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="step-item step-target" data-aos="fade-up">
+                        <span class="step-number">02.</span>
+                        <h3 class="step-title">Estratégia de Proteção</h3>
+                        <p class="step-text">Definimos as classes de registro perfeitas para blindar todos os seus
+                            serviços atuais e os planos de expansão.</p>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="step-item step-target" data-aos="fade-up">
+                        <span class="step-number">03.</span>
+                        <h3 class="step-title">Protocolo Expresso no INPI</h3>
+                        <p class="step-text">Preparamos a documentação o mais rápido possível para garantir a sua
+                            "dianteira" na fila. Você foca no negócio e nós na papelada.</p>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="step-item step-target" data-aos="fade-up">
+                        <span class="step-number">04.</span>
+                        <h3 class="step-title">Monitoramento 360º</h3>
+                        <p class="step-text">Mantemos vigilância constante no INPI contra espertinhos tentando aprovar
+                            nomes parecidos com o seu.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção 5: Diferenciais -->
+    <section class="section-differentials bg-alt" id="diferenciais">
+        <div class="diff-intro-container text-center">
+            <h2 class="diff-intro-title" data-aos="fade-up">Por que as empresas que valorizam seu patrimônio escolhem a
+                SMS?</h2>
+        </div>
+
+        <div class="diff-rows-container">
+            <!-- Diferencial 1 -->
+            <div class="diff-row">
+                <div class="diff-title-wrapper" data-aos="fade-up">
+                    <h3 class="diff-title">Especialistas<br>Reais (Não robôs)</h3>
+                </div>
+                <div class="diff-text-wrapper" data-aos="fade-left">
+                    <p class="diff-text">Seu processo analisado por quem tem visão jurídica e de mercado, diferente das
+                        plataformas de "registro em massa".</p>
+                </div>
+            </div>
+
+            <!-- Diferencial 2 -->
+            <div class="diff-row">
+                <div class="diff-title-wrapper" data-aos="fade-up">
+                    <h3 class="diff-title">Agilidade<br>no Protocolo</h3>
+                </div>
+                <div class="diff-text-wrapper" data-aos="fade-left">
+                    <p class="diff-text"><span class="badge-gold">DIFERENCIAL DE MERCADO</span><br>Rapidez total para
+                        dar entrada no INPI e garantir sua preferência de registro antes dos concorrentes.</p>
+                </div>
+            </div>
+
+            <!-- Diferencial 3 -->
+            <div class="diff-row">
+                <div class="diff-title-wrapper" data-aos="fade-up">
+                    <h3 class="diff-title">Garantia de<br>Transparência</h3>
+                </div>
+                <div class="diff-text-wrapper" data-aos="fade-left">
+                    <p class="diff-text">Trabalhamos sem "asteriscos" ou taxas surpresa "escondidas" no meio do
+                        processo. Você sabe exatamente o investimento.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção 6: Sobre Nós / Autoridade -->
+    <section class="section-about bg-subtle" id="sobre"
+        style="content-visibility: auto; contain-intrinsic-size: 0 800px;">
+        <div class="container about-grid">
+            <div class="about-image-wrapper" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <div class="duotone-overlay"></div>
+                <img src="/.netlify/images?url=/marina-placeholder.jpg&w=800&q=80" width="800" height="1066"
+                    alt="Marina Melo - Fundadora" class="about-image" loading="lazy">
+            </div>
+
+            <div class="about-content" data-aos="fade-left">
+                <h2 class="about-title">Mais do que registro, proteção patrimonial.</h2>
+                <div class="about-text">
+                    <p>Fundada por Marina Melo, a SMS existe para transformar marcas em ativos inabaláveis. Acreditamos
+                        que o seu nome carrega sua história, seu investimento e seus sonhos. Nosso propósito é atuar com
+                        força jurídica para garantir que ninguém possa roubar isso de você.</p>
+                    <div style="margin-top: 2rem;">
+                        <a href="#contato" class="cta-button primary-cta">Quero proteger minha marca</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção 7: FAQ -->
+    <section class="section-faq" id="faq" style="content-visibility: auto; contain-intrinsic-size: 0 600px;">
+        <div class="faq-container">
+            <h2 class="sr-only">Perguntas Frequentes</h2>
+
+            <div class="accordion-list">
+                <!-- FAQ Item 1 -->
+                <div class="accordion-item" data-aos="fade-up">
+                    <button class="accordion-question" aria-expanded="false">
+                        <span class="question-text">O meu CNPJ já não protege meu nome?</span>
+                        <span class="accordion-icon"><i class="ph ph-plus"></i></span>
+                    </button>
+                    <div class="accordion-answer">
+                        <div class="answer-content">
+                            Não. A Junta Comercial protege a razão social apenas no seu Estado. Somente o INPI garante o
+                            uso exclusivo da marca em todo o Brasil.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="accordion-item" data-aos="fade-up" data-aos-delay="100">
+                    <button class="accordion-question" aria-expanded="false">
+                        <span class="question-text">Quanto tempo demora o registro no INPI?</span>
+                        <span class="accordion-icon"><i class="ph ph-plus"></i></span>
+                    </button>
+                    <div class="accordion-answer">
+                        <div class="answer-content">
+                            O processo até o certificado pode levar alguns meses. Porém, no mesmo dia em que
+                            protocolamos o pedido, você ganha a <strong>Prioridade de Registro</strong> – isso significa
+                            que qualquer concorrente que tentar registrar depois de você, perderá o direito.
+                            <br><br><span class="badge-urgent">O relógio está correndo.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                    <button class="accordion-question" aria-expanded="false">
+                        <span class="question-text">O que acontece se minha marca já tiver sido registrada por
+                            outro?</span>
+                        <span class="accordion-icon"><i class="ph ph-plus"></i></span>
+                    </button>
+                    <div class="accordion-answer">
+                        <div class="answer-content">
+                            Nossa equipe fará a busca de viabilidade. Se já houver dono, traçaremos a melhor estratégia
+                            para o seu caso, que pode ir desde tentar derrubar a marca do terceiro até estruturarmos um
+                            rebranding totalmente seguro antes que a notificação extrajudicial chegue na sua porta.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção 8: Footer CTA -->
+    <section class="section-footer-cta bg-primary" id="contato">
+        <div class="spotlight-bg"></div>
+        <div class="container footer-cta-content" data-aos="fade-up">
+            <h2 class="footer-title">Não deixe o futuro do seu negócio nas mãos da sorte ou da concorrência.</h2>
+            <p class="footer-subtitle">Fale com um especialista agora e descubra se o seu nome está disponível antes que
+                alguém seja mais rápido.</p>
+            <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer"
+                class="cta-button primary-cta btn-whatsapp">
+                <i class="ph ph-whatsapp-logo"></i> Chamar Especialista no WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer Basic -->
+    <footer
+        style="background-color: #0b1536; padding: 2rem 0; text-align: center; color: rgba(255,255,255,0.5); font-size: 0.875rem;">
+        <p>&copy; 2026 Sua Marca Segura | CNPJ 00.000.000/0000-00. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
