@@ -1,7 +1,5 @@
 # example netlify.toml
 [build]
-  command = "# no build command"
-  functions = "netlify/functions"
   publish = "marina-melo"
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
