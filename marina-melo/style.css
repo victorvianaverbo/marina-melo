@@ -2,8 +2,8 @@
     /* Premium Light Palette */
     --primary: #1A2B5E;
     --primary-rgb: 26, 43, 94;
-    --accent-gold: #C4973A;
-    --accent-gold-light: #F0C050;
+    --accent-gold: #9C7C38;
+    --accent-gold-light: #E1C16E;
     --bg-main: #FFFFFF;
     --bg-alt: #F7F5F0;
     --bg-subtle: #EEF1F8;
@@ -131,18 +131,19 @@ h4,
     transition: var(--transition);
     cursor: pointer;
     border: none;
-    border-radius: 4px;
+    border-radius: 12px;
     text-transform: uppercase;
+    white-space: nowrap;
 }
 
 .primary-cta {
     background: linear-gradient(135deg, var(--accent-gold) 0%, var(--accent-gold-light) 100%);
     color: #FFFFFF;
-    border: 1px solid rgba(255, 255, 255, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.2);
     position: relative;
     overflow: hidden;
-    box-shadow: 0 8px 25px rgba(196, 151, 58, 0.3), inset 0 1px 2px rgba(255, 255, 255, 0.6);
-    transition: all 0.5s ease;
+    box-shadow: 0 10px 30px rgba(156, 124, 56, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.4);
+    transition: var(--transition);
 }
 
 /* Hover Lift Interaction */
